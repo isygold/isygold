@@ -1,48 +1,37 @@
-# Hey, I'm isygold 👋
+# isygold 👋
 
-**Low-level graphics dev & vibecoder** — I debug, refactor, and improve existing code rather than writing from scratch. Most comfortable staring at disassembly and framegraphs.
+[![Sponsor](https://img.shields.io/badge/Sponsor-%24?logo=github&style=flat)](https://github.com/sponsors/isygold)
 
-**Specializing in Adreno-optimized DXVK forks:**  
-`Star Engine` → `VEGAS` (tier-aware DXVK with async FSR, motion-compensated frame gen, TBDR-adaptive governors).
-
----
-
-## 🔧 What I do
-
-- Dig into **DXVK / Vulkan** translation layers and find bottlenecks specific to Qualcomm Adreno GPUs
-- **Refactor** upstream DXVK to merge Star Engine / VEGAS optimizations into vanilla
-- **Debug** emulation issues across Winlator-based projects, Vita3K, Ape 3, and other Android emulators
-- Port WCP-based install flows, build CI pipelines, and keep things compiling across multiple flavors
+**Low-level graphics dev & vibecoder** — debugging, refactoring, and improving original DXVK code for Adreno GPUs on Android. I spot bottlenecks in Vulkan translation layers that nobody else sees, and I fix them.
 
 ---
 
-## 📦 Projects
+## 🚀 Major Works
 
-| Project | What it is |
-|---|---|
-| **Bannerlator** | VEGAS wiring base ground for the Winlator emulator. |
-| **VEGAS DXVK** | v2.7.3 — tier-aware fork with async FSR 1.0, frame gen, TBDR adaptive governors, dynamic VRAM. |
-| **Star Engine DXVK** | v2.7.2.1-HAAE — stability-first DXVK for Android emulators. |
-
----
-
-## 🧠 Currently
-
-Merging VEGAS optimizations back into vanilla DXVK and extending low-level fixes to other emulators (Mali targets included).
+| Project | Description |
+|---------|-------------|
+| **[VEGAS DXVK](https://github.com/star-emu/vegas)** | Tier-aware DXVK fork with FSR 1.0 async upscale, motion-compensated frame gen, TBDR-adaptive draw-flush governor, bind-skip optimization, HAAE threshold tuning, and dynamic VRAM swap — purpose-built for Adreno 610/619/618/630/640/650/660/730 GPUs. |
+| **[Star Engine DXVK](https://github.com/isygold/Star-Engine-DXVK-Releases)** | Stability-first DXVK v2.7.1 fork for Android emulators. Mid-frame command flushing, dynamic-state-aware bind-skip, and Android-native config paths. |
+| **[VEGAS 2.4.1 Port](https://github.com/isygold/vegas-releases)** | Clean backport of select VEGAS features (FSR, frame gen, HAAE, bind-skip, governor) to vanilla DXVK 2.4.1 for maximum compatibility on older Turnip drivers. |
+| **[DXVK Config Collection](https://github.com/isygold/DXVK.CONF-FILE-SETTINGS-)** | Curated game-specific `dxvk.conf` presets tuned for Adreno GPUs on Winlator/Star Emulator. |
 
 ---
 
-## 🤝 Support
+## 🛠 What I Do
 
-If you find my work valuable, you can support ongoing development through:
-
-- **GitHub Sponsors** — https://github.com/sponsors/isygold
-
-Your support helps fund continued research, tooling, and open-source maintenance.
+- **Debug & refactor** DXVK / Vulkan translation layers — identify GPU-specific bottlenecks on Qualcomm Adreno
+- **Vibecode** optimizations into existing codebases rather than writing from scratch (FSR compute pipelines, command buffer pacing, descriptor binding optimizations)
+- **Port** upstream DXVK changes into VEGAS while keeping backward compatibility with GPLAsync/Turnip
+- **Test** across multiple Adreno tiers (610–730) and Android emulators (Winlator, Star Emulator, Mobox)
 
 ---
 
-## 📫 Reach out
+## 📫 Reach Out
 
-Open to collab with folks who know **Vulkan**, **DXVK internals**, **Mesa/Turnip**, or **Android NDK**.  
-Serious only — let's build better tools.
+- Telegram: [t.me/isygold](https://t.me/isygold)
+- Discord: `isygold`
+- Open to collab on Vulkan/DXVK/Mesa internals — serious inquiries only
+
+---
+
+> *"Debugging, refactoring, improving — one commit at a time."*
