@@ -32,6 +32,18 @@ Merging VEGAS optimizations back into vanilla DXVK and extending low-level fixes
 
 ---
 
+## 💖 Support / Sponsor
+
+If my work saves you time or helps your setup run better, consider supporting:
+
+- **GitHub Sponsors** — https://github.com/sponsors/isygold
+- **Ko-fi** — https://ko-fi.com/isygold
+- **PayPal** — https://paypal.me/isygold
+
+Even a small coffee helps keep the late-night debugging sessions going. 🙏
+
+---
+
 ## 📫 Reach out
 
 Open to collab with folks who know **Vulkan**, **DXVK internals**, **Mesa/Turnip**, or **Android NDK**.  
