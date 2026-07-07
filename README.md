@@ -1,39 +1,38 @@
-# About Me
+# Hey, I'm isygold 👋
 
-Hi, I'm **isygold** (AGBOOLA ISRAEL OLUWAGBOGO) 👋
+**Low-level graphics dev & vibecoder** — I debug, refactor, and improve existing code rather than writing from scratch. Most comfortable staring at disassembly and framegraphs.
 
-I am a low-level graphics and systems developer focused on optimizing **Direct3D-to-Vulkan translation for mobile devices**, with a particular emphasis on Qualcomm Adreno GPUs. 
-
-By day, I am a medical student; by night, I code in whatever free time I have. All of my work is driven by real-world testing and a passion for pushing the boundaries of mobile emulation.
-
----
-
-## 🚀 Projects & Contributions
-
-* **Star Engine DXVK (2.7.2.1-HAAE):** A stability-first fork built specifically to ensure smooth, reliable gameplay on Android emulators.
-* **VEGAS DXVK (v2.7.3):** The evolution of Star Engine. A highly advanced, tier-aware fork featuring:
-    * Async FSR 1.0
-    * Motion-compensated frame generation
-    * TBDR-optimized adaptive governors
-    * Dynamic VRAM handling
-
-> **The Goal:** Make Windows games run flawlessly on smartphones—especially on mid and low-end hardware—by deeply understanding Adreno's architectural quirks and writing targeted, low-level fixes.
+**Specializing in Adreno-optimized DXVK forks:**  
+`Star Engine` → `VEGAS` (tier-aware DXVK with async FSR, motion-compensated frame gen, TBDR-adaptive governors).
 
 ---
 
-## 🛠️ Current Focus
+## 🔧 What I do
 
-* **Upstream Integration:** Merging Star Engine and VEGAS optimization features directly into vanilla DXVK.
-* **Cross-Emulator Optimization:** Extending similar low-level optimizations to other emulators (like *Vita3K*, *Ape 3*, etc.) targeting both Adreno and Mali GPUs.
-* **Open Source:** Finalizing the core architecture to make everything fully open-source and community-driven.
+- Dig into **DXVK / Vulkan** translation layers and find bottlenecks specific to Qualcomm Adreno GPUs
+- **Refactor** upstream DXVK to merge Star Engine / VEGAS optimizations into vanilla
+- **Debug** emulation issues across Winlator-based projects, Vita3K, Ape 3, and other Android emulators
+- Port WCP-based install flows, build CI pipelines, and keep things compiling across multiple flavors
 
 ---
 
-## 🤝 Let's Collaborate
+## 📦 Projects
 
-I am always open to serious collaboration from developers experienced with:
-* **Vulkan** & **DXVK**
-* **Mesa / Turnip**
-* **Android NDK**
+| Project | What it is |
+|---|---|
+| **Bannerlator** | My personal Winlator Star Bionic continuation — Adreno-tuned, VEGAS-wired, CI-built. |
+| **VEGAS DXVK** | v2.7.3 — tier-aware fork with async FSR 1.0, frame gen, TBDR adaptive governors, dynamic VRAM. |
+| **Star Engine DXVK** | v2.7.2.1-HAAE — stability-first DXVK for Android emulators. |
 
-Let's build better tools for the community together 🔥
+---
+
+## 🧠 Currently
+
+Merging VEGAS optimizations back into vanilla DXVK and extending low-level fixes to other emulators (Mali targets included).
+
+---
+
+## 📫 Reach out
+
+Open to collab with folks who know **Vulkan**, **DXVK internals**, **Mesa/Turnip**, or **Android NDK**.  
+Serious only — let's build better tools.
