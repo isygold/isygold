@@ -20,7 +20,7 @@
 
 | Project | What it is |
 |---|---|
-| **Bannerlator** | My personal Winlator Star Bionic continuation — Adreno-tuned, VEGAS-wired, CI-built. |
+| **Bannerlator** | VEGAS wiring base ground for the Winlator emulator. |
 | **VEGAS DXVK** | v2.7.3 — tier-aware fork with async FSR 1.0, frame gen, TBDR adaptive governors, dynamic VRAM. |
 | **Star Engine DXVK** | v2.7.2.1-HAAE — stability-first DXVK for Android emulators. |
 
