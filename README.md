@@ -37,8 +37,6 @@ Merging VEGAS optimizations back into vanilla DXVK and extending low-level fixes
 If you find my work valuable, you can support ongoing development through:
 
 - **GitHub Sponsors** — https://github.com/sponsors/isygold
-- **Ko-fi** — https://ko-fi.com/isygold
-- **PayPal** — https://paypal.me/isygold
 
 Your support helps fund continued research, tooling, and open-source maintenance.
 
