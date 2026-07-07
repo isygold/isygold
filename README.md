@@ -2,7 +2,7 @@
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-%24?logo=github&style=flat)](https://github.com/sponsors/isygold)
 
-**Low-level graphics dev & vibecoder** — debugging, refactoring, and improving original DXVK code for Adreno GPUs on Android. I spot bottlenecks in Vulkan translation layers that nobody else sees, and I fix them.
+**Low-level graphics dev & vibecoder** — debugging, refactoring, and improving original DXVK code for Adreno GPUs on Android. I spot bottlenecks in Vulkan translation layers that is commonly seen or nobody else sees, and I stabilise or fix them (if possible).
 
 ---
 
@@ -20,9 +20,9 @@
 ## 🛠 What I Do
 
 - **Debug & refactor** DXVK / Vulkan translation layers — identify GPU-specific bottlenecks on Qualcomm Adreno
-- **Vibecode** optimizations into existing codebases rather than writing from scratch (FSR compute pipelines, command buffer pacing, descriptor binding optimizations)
+- **Vibecode** optimizations into existing codebases (FSR compute pipelines, command buffer pacing, descriptor binding optimizations)
 - **Port** upstream DXVK changes into VEGAS while keeping backward compatibility with GPLAsync/Turnip
-- **Test** across multiple Adreno tiers (610–730) and Android emulators (Winlator, Star Emulator, Mobox)
+- **Test** across multiple Adreno 610 and Android emulators (Winlator, Star Emulator)
 
 ---
 
@@ -33,5 +33,3 @@
 - Open to collab on Vulkan/DXVK/Mesa internals — serious inquiries only
 
 ---
-
-> *"Debugging, refactoring, improving — one commit at a time."*
