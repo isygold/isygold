@@ -2,7 +2,7 @@
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-%24?logo=github&style=flat)](https://github.com/sponsors/isygold)
 
-**Low-level graphics dev & vibecoder** — debugging, refactoring, and improving original DXVK code for Adreno GPUs on Android. I spot bottlenecks in Vulkan translation layers that is commonly seen or nobody else sees, and I stabilise or fix them (if possible).
+**I am a Low-level graphics dev & vibecoder** — debugging, refactoring, and improving original DXVK code for Adreno GPUs on Android. I spot bottlenecks in Vulkan translation layers that is commonly seen or nobody else sees, and I stabilise or fix them (if possible).
 
 ---
 
