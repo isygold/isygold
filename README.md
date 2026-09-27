@@ -17,6 +17,8 @@
 
 ---
 
+## 🔥ACTIVELY ENGAGINGING WITH PANDXVK. VEGAS IS PAUSED FOR NOW, BUT WILL SURELY RESUME TILL PANDXVK IS ALMOST DONE.
+
 ## 🛠 What I Do
 
 - **Debug & refactor** DXVK / Vulkan translation layers — identify GPU-specific bottlenecks on Qualcomm Adreno
