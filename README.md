@@ -17,7 +17,7 @@
 
 ---
 
-## 🔥 OFFICIALLY OON BREAK, HEHE.
+## 🔥 OFFICIALLY ON BREAK, HEHE. first official build of panDXVK already built and released.
 
 ## 🛠 What I Do
 
